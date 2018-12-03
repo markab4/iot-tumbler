@@ -123,7 +123,7 @@ p{
 }
 
 header{
-  background: #262F37;
+  background: #fff;
 }
 
 header h1{
@@ -132,11 +132,10 @@ header h1{
 
 #container{
   clear: both;
-  padding-top: 20px;
 }
 
 .alt{
-  color: #fff;
+  color: #000 !important;
   color: rgba(255,255,255, 0.9);
   letter-spacing: 0.05em;
 }
@@ -158,12 +157,11 @@ nav ul li{
   text-align: center;
   overflow: auto;
   float: left;
-  width: 33%;
+  width: 14.5%;
 }
 
 nav a{
   text-decoration: none;
-  margin: 0;
   display: block;
   padding: 7px 0 7px 5%;
   margin: 0 0 0 4%;
@@ -232,4 +230,19 @@ nav a{
     *zoom:1;
 }
 
+.right-float {
+  justify-content: flex-end;
+}
 
+.navbar {
+  background-color: #eab15b;
+  margin: 5% 0;
+}
+
+.navbar-item{
+  text-decoration: none;
+  display: block;
+  padding: 18px 0 18px 0;
+  margin: 0 0 0 4%;
+  background-color: rgba(255,255,255,0);
+}
