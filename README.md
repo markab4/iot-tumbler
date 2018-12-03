@@ -4,6 +4,14 @@ This is a prototype of a responsive website for Tumblër: a smart device that le
 
 ### Roles
 (The names/roles of everyone in your group)
+* Mark Abramov
+    * designed wireframes
+    * created visual designs
+    * coded the websites (HTML, CSS, JavaScript)
+* Jazmyn Fuller
+    * designed assets such as logo and product images
+    * created site map
+    * coded the websites (HTML, CSS, JavaScript)
 
 ### Tumblër's Social Impact
 
@@ -11,10 +19,10 @@ Tumblër allows users to spend more time with their loved ones or what matters t
 (Paragraph describing the social aspect of the project- what is the reason for doing it? Is there a story behind it? Who is it for? Will it help people? How will they experience the project?)
 
 ### Site Structure
-
  (Describe the structure of the site. What is the hierarchy? How do users navigate through it? Give an example of some of the content.)
 
-### Attach Diagram– Site Map
+### Site Map
+![SiteMap](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/sitemap.jpg?raw=true)
 
 ### Assets
  (List any assets needed: 
@@ -31,8 +39,22 @@ Tumblër allows users to spend more time with their loved ones or what matters t
     learn anything specific? Do you need to use any copyrighted material? Do you
     need to buy anything to get it done?)
     
-### Attach Diagram- Wireframes. 
-(Have a wireframe for each of the main pages of the site, 3 wireframes, one for each page)
+### Wireframes. 
+#### Desktop
+##### Home Page
+![Home Page](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/HOME%20PAGE%20desktop.png?raw=true)
+##### Appliances Page
+![Appliances Page](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/APPLIANCES%20desktop.png?raw=true)
+##### Product Page
+![Product Page](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/PRODUCT%20desktop.png?raw=true)
+
+#### Mobile Portrait
+##### Home Page
+![Home Page](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/HOME%20PAGE%20Mobile%20Portrait.png?raw=true)
+##### Appliances Page
+![Appliances Page](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/APPLIANCES%20Mobile%20Portrait.png?raw=true)
+##### Product Page
+![Product Page](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/PRODUCT%20Mobile%20Portrait.png?raw=true)
 
 ### Jpegs of the final design.
 * 3 jpgs for each page for the visual design
