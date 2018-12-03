@@ -97,15 +97,20 @@ nav ul, ul { list-style:none; }
 body{
   font-size: 87.5%;
   color: #252e35;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.5em;
   background: #f6f6f6;
 }
 
 h1{
-    font-size: 1.714285714em; /* 24 / 14 */
+    font-size: 26pt; /* 24 / 14 */
     line-height: 1.5em; /* 21 / 14 */
-}
+    color: #19475f;
+    position: relative;
+    left: 6.9583333333333%;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }  
 
 h2{
   font-size: 1.5em; /* 21 / 14 */
@@ -132,6 +137,7 @@ header h1{
 
 #container{
   clear: both;
+  padding-top: 20px;
 }
 
 .alt{
@@ -230,8 +236,8 @@ nav a{
     *zoom:1;
 }
 
-.right-float {
-  justify-content: flex-end;
+.nav-right {
+  text-align: right !important;
 }
 
 .navbar {
@@ -245,4 +251,11 @@ nav a{
   padding: 18px 0 18px 0;
   margin: 0 0 0 4%;
   background-color: rgba(255,255,255,0);
+}
+
+.logo {
+  margin-left: 5%;
+  border-radius: 50%;
+  background-image: radial-gradient(50% 100%, #88BBD6 0%, #99D3DF 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
