@@ -262,9 +262,20 @@ nav a{
   left: 0;
   position: absolute;
 }
+
+@media all and (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
 .second-nav {
    background-color: #eab15b;
    padding: 5px 0;
+}
+
+.hero {
+  padding: 0 !important;
 }
 
 .hero-img {
@@ -276,14 +287,14 @@ nav a{
 }
 
 .phone-img {
-  text-align: center;
+  text-align: right;
 }
 
 .info {
-  /*text-align: left;*/
+  display: wrap;
+  text-align: left;
   font-size: 120%;
-  padding-top: 5%;
-  justify-content: center;
+  padding-top: 2%;
 }
 
 ul {
