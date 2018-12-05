@@ -7,11 +7,11 @@ This is a prototype of a responsive website for Tumblër: a smart device that le
 * Mark Abramov
     * designed wireframes
     * created visual designs
-    * coded the websites (HTML, CSS, JavaScript)
+    * coded the websites (HTML, CSS, JavaScript) for responsive mobile devices
 * Jazmyn Fuller
     * designed assets such as logo and product images
     * created site map
-    * coded the websites (HTML, CSS, JavaScript)
+    * coded the websites (HTML, CSS, JavaScript) for responsive screens
 
 ### Tumblër's Social Impact
 
