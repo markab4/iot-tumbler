@@ -179,8 +179,20 @@ nav a{
   background-color: rgba(255,255,255,0.1);
 }
 
-.navbar-reg {
-  /*float: none !important;*/
+a {
+  color:inherit;
+  text-decoration: none;
+  text-decoration-style: none;
+ }
+
+ a:hover {
+  color: inherit;
+  text-decoration: none;
+  text-decoration-style: none;
+ }
+
+.heading {
+  padding-top: 2%;
 }
 
 /* MEDIA QUERIES */
@@ -301,5 +313,41 @@ ul {
   list-style-position: inside;
 }
 
+.appliances-section {
+  padding: 5% 5%;
+}
+
+.appliance-h2 {
+  padding-bottom: 3%;
+  padding-left: 2%;
+  font-size: 260%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.appliance-h5 {
+  padding-top: 5%;
+  padding-left: 2%;
+  margin-right: 5%;
+  font-size: 180%;
+  font-weight: bold;
+}
+.appliance-p {
+  padding-left: 2%;
+  font-size: 150%;
+  margin-bottom: 0 !important;
+}
+
+.appliance-img {
+  padding-right: 15%;
+
+}
+
+.appliance-cost {
+  padding-left: 2%;
+  font-weight: bolder;
+  font-size: 180%;
+  color: #19475f;
+}
 
 
