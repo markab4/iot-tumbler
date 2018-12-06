@@ -99,6 +99,17 @@ nav ul, ul { /*list-style:none;*/ }
   margin-left: 0;
 }
 
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1440px) {
+}
+
 body{
   font-size: 87.5%;
   color: #252e35;
@@ -349,5 +360,59 @@ ul {
   font-size: 180%;
   color: #19475f;
 }
+
+.product-heading {
+  font-weight: bold;
+  margin-right: 45%;
+}
+
+.product-subtext {
+  font-weight: 600;
+}
+
+.product-area {
+  padding: 5% 0;
+}
+
+.feat-product {
+  text-align: center;
+/*  margin-right: 5%;*/
+}
+
+.cost {
+  padding-bottom: 2%;
+}
+
+.product-button {
+  padding-bottom: 3%;
+}
+
+button {
+  border-radius: 5px;
+  color: #fff;
+  width: 75%;
+  padding: 5%;
+  font-weight: bold;
+  text-align: center;
+  background-color: #7db1d1;
+}
+
+.preview {
+  width:400px;
+  height:400px;
+  margin-bottom: 5%;
+  margin-left: -3%;
+}
+
+.thumb {
+  width:15%;
+  margin-right:3%;
+}
+ 
+.selected {
+  border:3px solid #5f6768;
+}
+
+
 
 

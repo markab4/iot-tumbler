@@ -39,37 +39,56 @@
       </nav>
     </header>
 
-  		<div class="row justify-content-center">
+  		<div class="row justify-content-center product-area">
+  			<div class="col-sm-6 feat-product">
+  				<!-- <img src="../Assets/Washers/Washer4.jpg" height="400px" width="400px"> -->
+          <img id="0" class="preview normal" src="" alt="preview" /><br />
+          <img id="1" class="thumb normal" src="../Assets/Washers/Washer4.jpg" alt="image1" onmouseover="preview(this)"/>
+          <img id="2" class="thumb normal" src="../Assets/Washers/Washer1.jpg" alt="image2" onmouseover="preview(this)"/>
+          <img id="3" class="thumb normal" src="../Assets/Washers/Washer3.jpg" alt="image3" onmouseover="preview(this)"/>
+        </div>
   			<div class="col-sm-6">
-  				<img src="../Assets/Washers/Washer4.jpg" height="400px" width="400px">
-  			</div>
-  			<div class="col-sm-6">
-  				<h2>Name of Model</h2>
-  				<p>Model Number</p>
-  				<div class="row justify-content-left">
-  					  <div class="col-3 ">
-        				<button>Add To Cart</button>
+  				<h2 class="product-heading">Tumblër Front Load Washer with Steam</h2>
+  				<p class="product-subtext">5.0 DOE cubic feet capacity</p>
+          <h2 class="product-heading cost">$1399</h2>
+  				<div class="row justify-content-left product-button">
+  					  <div class="col-4 ">
+        				<button><a href="#">Add To Cart</button></a>
       				  </div>
-      				  <div class="col-3 ">
-        				<button>Where to Buy</button>
+      				  <div class="col-4 ">
+        				<button><a href="#">Where To Buy</button></a>
       				  </div>
   				</div>
   				<div class="row justify-content-left">
   					<div class="col-12 col-sm-6">
-  						<h5>Features:</h5>
-  						<ul>
-  							<li>Feature 1</li>
-  							<li>Feature 2</li>
-  							<li>Feature 3</li>
-  							<li>Feature 4</li>
-  							<li>Feature 5</li>
+              <p class="product-subtext">A WiFi communication card is built into your Tumblër allowing it to communicate with your phone for remote monitoring, control, and notificaitons. </p>
+  						<h2 class="product-heading">Features:</h2>
+              <p class="product-subtext">With a Tumblër smart washer/drawer and the Tumblër app, you'll be able to:</p>
+  						<ul class="product-subtext">
+  							<li>Start your cycle remotely</li>
+  							<li>Monitor cycle status and time remaining</li>
+  							<li>Extend the dryer cycle</li>
+  							<li>Receive and alert when your cycle has finished, but the door has not been opened</li>
+  							<li>Download custom specialty cycles/li>
   						</ul>
   					</div>
   				</div>
   			</div>
   		</div>
 
-		
+	<script>
+
+    var lastImg = 1; //Set initial thumbnail and preview
+    document.getElementById(0).src = document.getElementById(lastImg).src;
+    document.getElementById(lastImg).className = "thumb selected";
+
+    function preview(img) {
+        document.getElementById(lastImg).className = "thumb normal";
+        img.className = "thumb selected";
+        document.getElementById(0).src = img.src;
+        lastImg = img.id
+    }
+  </script>	
 	</div>
 
 </body>
