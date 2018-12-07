@@ -144,12 +144,14 @@ h1 {
     padding-left: 6%;
     text-transform: uppercase;
     padding-bottom: 20px;
+    font-weight: bolder;
 }
 
 h2 {
     font-size: 1.5em; /* 21 / 14 */
     color: #19475f;
     line-height: 1.5em; /* 21 / 14 */
+    padding-bottom: 3%;
 }
 
 p {
@@ -171,14 +173,13 @@ header h1 {
     margin: 7px 0 0 0;
 }
 
-#container {
+.container-small {
     clear: both;
     padding-top: 20px;
 }
 
 .alt {
-    color: #000 !important;
-    color: rgba(255, 255, 255, 0.9);
+    color: #000;
     letter-spacing: 0.05em;
 }
 
@@ -293,14 +294,25 @@ a:hover {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.logo {
+.logo-container {
     margin-left: 5%;
     border-radius: 80%;
     background-image: radial-gradient(50% 100%, #88BBD6 0%, #99D3DF 100%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
-    top: -5vh;
+    top: 35px;
+    z-index: 1;
     left: 0;
     position: absolute;
+    height: 90px;
+    width: 265px;
+}
+
+.logo {
+    width: 29vw;
+    z-index: 10;
+    position: absolute;
+    top: -17px;
+    left: 2vw;
 }
 
 @media all and (max-width: 767px) {
@@ -314,8 +326,9 @@ a:hover {
     padding: 5px 0;
 }
 
-.second-nav ul {
-    color: white;
+.navbar-reg {
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .hero {
