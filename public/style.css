@@ -320,6 +320,17 @@ a {
   padding-top: 2%;
 }
 
+
+.link-btn-row {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.app-link-btn{
+  width: 50%;
+  padding: 2% 1%;
+  margin-left: 25%;
+}
 ul {
   list-style-position: inside;
 }
