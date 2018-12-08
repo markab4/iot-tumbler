@@ -341,7 +341,14 @@ a:hover {
     display: wrap;
     text-align: left;
     font-size: 120%;
-    padding-top: 2%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.p-info {
+    padding-left: 0;
 }
 
 .link-btn-row {
