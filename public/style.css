@@ -178,18 +178,11 @@ header h1 {
     padding-top: 20px;
 }
 
-<<<<<<< HEAD
 .alt{
   color: #000;
   letter-spacing: 0.05em;
-=======
-.alt {
-    color: #000;
-    letter-spacing: 0.05em;
->>>>>>> d7a4be40219013cfe4baba26c108b27ad2879d4f
 }
 
-/* NAVIGATION */
 
 nav {
     margin: 7px 0 7px 0;
@@ -300,37 +293,22 @@ a:hover {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.logo-container {
-    margin-left: 5%;
-    border-radius: 80%;
-    background-image: radial-gradient(50% 100%, #88BBD6 0%, #99D3DF 100%);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
-    top: 35px;
-    z-index: 1;
-    left: 0;
-    position: absolute;
-    height: 90px;
-    width: 265px;
-}
 
 .logo {
-    width: 29vw;
+    width: 13.5vw;
     z-index: 10;
     position: absolute;
-    top: -17px;
-    left: 2vw;
+    top: 30px;
+    left: 7vw;
+    border-radius: 65px;
+    box-shadow: 0px 1px 5px #00000f;
 }
 
 @media all and (max-width: 767px) {
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
   .hidden-mobile {
-  display: none !important;
-  }
-=======
-    .hidden-mobile {
         display: none !important;
     }
->>>>>>> d7a4be40219013cfe4baba26c108b27ad2879d4f
 }
 
 .second-nav {
@@ -352,11 +330,7 @@ a:hover {
 }
 
 .product-info {
-<<<<<<< HEAD
   padding-top: 5%;
-=======
-    padding-top: 5% !important;
->>>>>>> d7a4be40219013cfe4baba26c108b27ad2879d4f
 }
 
 .phone-img {
@@ -438,7 +412,6 @@ ul {
 
 .feat-product {
     text-align: center;
-    /*  margin-right: 5%;*/
 }
 
 .cost {
