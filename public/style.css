@@ -157,8 +157,7 @@ header h1{
 }
 
 .alt{
-  color: #000 !important;
-  color: rgba(255,255,255, 0.9);
+  color: #000;
   letter-spacing: 0.05em;
 }
 
@@ -288,7 +287,7 @@ a {
 
 @media all and (max-width: 767px) {
   .hidden-mobile {
-    display: none !important;
+  display: none !important;
   }
 }
 
@@ -306,7 +305,7 @@ a {
 }
 
 .product-info {
-  padding-top: 5% !important;
+  padding-top: 5%;
 }
 
 .phone-img {
