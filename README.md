@@ -30,7 +30,7 @@ Our site has a good structure that was methodically planned. On the Homepage we 
 
 ### Assets
  * logo (Created in Illustrator)
- * graphics (Creeated in Illustrator/Found on iStock photos)
+ * graphics (Created in Illustrator/Found on iStock photos)
  * icons (Used icon library from Font Awesome)
 
 
