@@ -35,7 +35,7 @@ Our site has a good structure that was methodically planned. On the Homepage we 
 
 
 ### Implementation
-    Initially we agreed on our project idea, created sketches, and divided the workload based on our strengths and weaknesses. Github was used to share and store all our files for the project, and keep track of our changes. We also used GitHub Issues to organize and list goals we needed to complete for each week. When finished, we closed the issue on GitHub, and uploaded a photo (if necessary) to show our progress. We utlized the Bootstrap library to help make our site responsive, and used the Wacom tablet to design the logo. Our prior, and accrued knowledge of HTML, CSS, and JavaScript this past semester allowed us to complete the assignment in a timely fashion.
+Initially we agreed on our project idea, created sketches, and divided the workload based on our strengths and weaknesses. Github was used to share and store all our files for the project, and keep track of our changes. We also used GitHub Issues to organize and list goals we needed to complete for each week. When finished, we closed the issue on GitHub, and uploaded a photo (if necessary) to show our progress. We utlized the Bootstrap library to help make our site responsive, and used the Wacom tablet to design the logo. Our prior, and accrued knowledge of HTML, CSS, and JavaScript this past semester allowed us to complete the assignment in a timely fashion.
     
 ### Wireframes
 #### Desktop
