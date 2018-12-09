@@ -23,25 +23,19 @@ Tumblërs can be controlled via mobile phones or tablets remotely – great if t
 In addition to convenience, Tumblërs are also great for the environment! They can adapt the wash to the amount of clothes that are in the drum, ensuring clothes are washed efficiently no matter the size of the load. Tumblërs can let users know when they needs cleaning or maintaining, which will help the machines last longer.
 
 ### Site Structure
- (Describe the structure of the site. What is the hierarchy? How do users navigate through it? Give an example of some of the content.)
+Our site has a good structure that was methodically planned. On the Homepage we have links to all the other pages and content our site has to offer. The links are broken down into specific sections which can contain other smaller categories of content offered on our site. For example, our 'Appliances' link takes you to a page of our Washer and Dryers that we are selling. This page is then broken down into the individual product your interested in, with more detailed content. Our method guarantees visitors are not overwhelmed by too much information, and that the users navigation is intuitive.  
 
 ### Site Map
 ![SiteMap](https://github.com/JazmynFuller/iot-tumbler/blob/master/wireframes/sitemap.jpg?raw=true)
 
 ### Assets
- (List any assets needed: 
- * logo
- * graphics
- * sounds
- * icons
- * animations
- etc.)
+ * logo (Created in Illustrator)
+ * graphics (Creeated in Illustrator/Found on iStock photos)
+ * icons (Used icon library from Font Awesome)
+
 
 ### Implementation
-(What is your plan to get the work done? Do you have a
-   schedule? Do you need specific materials – hardware, software? Do you need to
-    learn anything specific? Do you need to use any copyrighted material? Do you
-    need to buy anything to get it done?)
+    Initially we agreed on our project idea, created sketches, and divided the workload based on our strengths and weaknesses. Github was used to share and store all our files for the project, and keep track of our changes. We also used GitHub Issues to organize and list goals we needed to complete for each week. When finished, we closed the issue on GitHub, and uploaded a photo (if necessary) to show our progress. We utlized the Bootstrap library to help make our site responsive, and used the Wacom tablet to design the logo. Our prior, and accrued knowledge of HTML, CSS, and JavaScript this past semester allowed us to complete the assignment in a timely fashion.
     
 ### Wireframes
 #### Desktop
@@ -85,4 +79,4 @@ In addition to convenience, Tumblërs are also great for the environment! They c
 * 1 screenshot for mobile site
 
 ### Evaluation
-(How will you judge the effectiveness of the site? What will make the project a success?)
+Our website is very effective right now. There are many visuals, and 45-72 characters per line, which ensures our vistors experience a balance of text and images without being overwhelmed. We layed out our content logically to prevent our vistors from switch tasking; as switch tasking causes people to forget what they're focusing on which in the end can turn away sales of our product. We also ensured our colour palette wasn't overpowering because it would've caused a visual illusion for our users. This would also cause their eyes to get tired, which would eventually lead them to leaving our site. This is why we used pastel colours, with dark text. If we continue our layout practices, and build on the content we have accessible on our website, it will soar. If we wanted to make additional money on top of selling our product, sensibly placing ads in spots where users will see it but not get distracted would work as well. 
