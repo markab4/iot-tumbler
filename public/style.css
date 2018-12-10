@@ -353,6 +353,7 @@ a:hover {
 @media screen and (max-width: 610px) {
     .first-nav {
         flex-direction: row;
+        padding-top: 5%;
     }
 
     .second-nav {
@@ -375,7 +376,7 @@ a:hover {
         position: absolute;
         right: 10%;
         top: 0;
-        margin: 10px auto;
+        margin: 11% 0 0 28%
     }
 
     nav ul li {
