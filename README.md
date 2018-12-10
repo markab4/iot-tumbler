@@ -88,6 +88,6 @@ We used several metrics to measure the effectiveness of our site. There are many
 
  We laid out our content logically to prevent our visitors from switch-tasking; switch-tasking causes people to forget what they're focusing on, which in the end can turn away sales of our product. We also ensured our colour palette was not overpowering to prevent eye strain and user loss. This is why we used pastel colours, with dark text.   
  
- Ideally, we would continue our layout practices and build on the content we have accessible on our website. If we wanted to make additional money on top of selling our product, sensibly placing ads in spots where users will see it but not get distracted would work as well. 
+ Ideally, we would continue our layout practices and build on the content we have accessible on our website. If we wanted to make additional money on top of selling our product, sensibly placing ads in spots where users will see it but not get distracted would work as well. We would also implement the search box, so if a user wants to look for something specific they can just type it in, and get it right away.
  
  In the end, the most effective yardstick by which we can measure effectiveness of our site is the online sales of our product. A bounce rate of less than 15% would make the project a great success.
