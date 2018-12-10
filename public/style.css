@@ -57,6 +57,7 @@ nav ul, ul { /*list-style:none;*/
 
 .col:first-child {
     margin-left: 0;
+    padding: 0;
 }
 
 .span1 {
@@ -216,6 +217,23 @@ nav a {
     padding: 7px 0 7px 5%;
     margin: 0 0 0 4%;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.first-nav {
+     margin-left: 28%;
+}
+
+@media screen and (max-width: 768px) {
+    .first-nav {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggler {
+        width: 100% !important;
+        padding-bottom: 2%;
+    }
 }
 
 a {
