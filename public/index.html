@@ -27,36 +27,50 @@
 <body class="cf">
 <header>
     <div class="container-fluid">
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span>
+        </button>
         <div class="row">
             <nav class="first-nav col-sm-12">
                 <ul class="col">
                     <li><a class="alt span nav-right" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        Cart</a></li>
-                    <li><a class="alt span nav-right" href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</a>
+                        <span class="hidden-mobile">Cart</span></a></li>
+                    <li><a class="alt span nav-right" href="#"><i class="fa fa-phone" aria-hidden="true"></i>
+                        <span class="hidden-mobile">Contact Us</span></a>
                     </li>
-                    <li><a class="alt span nav-right" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Where
-                        to Buy</a></li>
-                    <li><a class="alt span nav-right" href="#"><i class="fa fa-building" aria-hidden="true"></i> Our
-                        Company</a></li>
-                    <li><a class="alt span nav-right" href="#"><i class="fa fa-user" aria-hidden="true"></i> Account</a>
+                    <li><a class="alt span nav-right" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span class="hidden-mobile">Where to Buy</span></a></li>
+                    <li><a class="alt span nav-right" href="#"><i class="fa fa-building" aria-hidden="true"></i>
+                        <span class="hidden-mobile">Our Company</span></a></li>
+                    <li><a class="alt span nav-right" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-mobile">
+                        Account</span></a>
                     </li>
                 </ul>
             </nav>
 
             <a href="index.html">
-                <div class="span2 logo-container d-none d-md-block"></div>
+                <div class="logo-container d-none d-md-block"></div>
                 <img class=logo
                      src="https://github.com/JazmynFuller/iot-tumbler/blob/master/Assets/img/IoTLogoUpdate.png?raw=true"
                      alt="logo">
             </a>
 
-            <nav class="col-12 second-nav">
+            <nav class="col-12 second-nav collapse navbar-collapse" id="navbarSupportedContent1">
                 <ul class="col-12 ">
                     <li><a class="alt span navbar-reg" href="#">Support</a></li>
                     <li><a class="alt span navbar-reg" href="#">Parts</a></li>
                     <li><a class="alt span navbar-reg" href="appliances.html">Appliances</a></li>
                     <li><a class="alt span navbar-reg" href="#">Home</a></li>
+                </ul>
+            </nav>
 
+            <nav class="col-12 second-nav hidden-mobile">
+                <ul class="col-12 ">
+                    <li><a class="alt span navbar-reg" href="#">Support</a></li>
+                    <li><a class="alt span navbar-reg" href="#">Parts</a></li>
+                    <li><a class="alt span navbar-reg" href="appliances.html">Appliances</a></li>
+                    <li><a class="alt span navbar-reg" href="#">Home</a></li>
                 </ul>
             </nav>
         </div>
@@ -68,7 +82,7 @@
     <div class="col-sm-12 hero">
         <img class="hero-img img-fluid"
              src="https://github.com/JazmynFuller/iot-tumbler/blob/master/Assets/img/hero2.jpg?raw=true">
-        <p class="caption"><em>Take a load off... </em><span class="new-line"><br/></span>with Tumblër</p>
+        <p class="caption"><em>Take a load off... </em><br/>with Tumblër</p>
 
     </div>
 </div> <!--! end of #container -->

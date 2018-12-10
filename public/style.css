@@ -164,6 +164,10 @@ p {
     margin: 0 auto;
 }
 
+.second-nav {
+    display: block;
+}
+
 header {
     background: #fff;
     position: relative;
@@ -240,6 +244,14 @@ a:hover {
     box-shadow: 0 1px 5px #00000f;
 }
 
+.navbar-toggler {
+    color: black;
+    background: #eab15b;
+    width: 30vw;
+    margin-bottom: 30px;
+    display: none;
+}
+
 .heading {
     padding-top: 2%;
 }
@@ -279,6 +291,7 @@ a:hover {
 
     .logo {
         width: 100px;
+        float: right;
     }
 
     .caption {
@@ -286,9 +299,6 @@ a:hover {
         position: relative;
     }
 
-    .new-line{
-        display: none;
-    }
 
     .phone-img {
         width: 100vw;
@@ -318,6 +328,19 @@ a:hover {
 }
 
 @media screen and (max-width: 610px) {
+    .first-nav {
+        flex-direction: row;
+    }
+
+    .second-nav {
+        display: inherit;
+    }
+
+    .navbar-toggler {
+        display: inherit;
+    }
+
+
     .heading {
         font-size: 21pt;
         text-align: center;
@@ -326,8 +349,10 @@ a:hover {
     .logo {
         width: 100px;
         display: block;
-        margin: 0 auto;
-        position: inherit;
+        position: absolute;
+        right: 10%;
+        top: 0;
+        margin: 10px auto;
     }
 
     nav ul li {
@@ -378,8 +403,13 @@ a:hover {
     background-color: rgba(255, 255, 255, 0);
 }
 
+@media all and (min-width: 610px) {
+    .collapse {
+        display: none;
+    }
+}
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 610px) {
 /*<<<<<<< HEAD*/
   .hidden-mobile {
         display: none !important;
@@ -437,8 +467,6 @@ a:hover {
     padding: 2% 1%;
     margin-left: 25%;
 }
-
-
 
 .appliances-section {
     padding: 5% 5%;
