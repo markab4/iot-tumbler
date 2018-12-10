@@ -229,6 +229,17 @@ a:hover {
     font-weight: bold;
 }
 
+.logo {
+    width: 13.5vw;
+    max-width: 180px;
+    z-index: 10;
+    position: absolute;
+    top: 30px;
+    left: 7vw;
+    border-radius: 65px;
+    box-shadow: 0 1px 5px #00000f;
+}
+
 .heading {
     padding-top: 2%;
 }
@@ -243,14 +254,31 @@ a:hover {
     left: 10%;
 }
 
+.appliance-h5:hover{
+    color: #19475f;
+}
+
+.preview {
+    width: 400px;
+    margin-bottom: 5%;
+    margin-left: -3%;
+}
+
+
 /* MEDIA QUERIES */
 
 /* Responsify Defaults */
 
+@media screen and (max-width: 922px) {
+    .logo {
+        top: 62px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .logo {
-
+        width: 100px;
     }
 
     .caption {
@@ -283,9 +311,25 @@ a:hover {
         width: 100%;
         padding: 0 5% 0 5%;
     }
+
+    .preview {
+        width: 50vw;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 610px) {
+    .heading {
+        font-size: 21pt;
+        text-align: center;
+    }
+    
+    .logo {
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+        position: inherit;
+    }
+
     nav ul li {
         width: 100%;
         margin: 0 0 5px 0;
@@ -294,6 +338,11 @@ a:hover {
     nav a {
         margin: 0;
         padding: 14px 0 14px 0;
+    }
+
+    .product-button {
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -330,16 +379,6 @@ a:hover {
 }
 
 
-.logo {
-    width: 13.5vw;
-    z-index: 10;
-    position: absolute;
-    top: 30px;
-    left: 7vw;
-    border-radius: 65px;
-    box-shadow: 0 1px 5px #00000f;
-}
-
 @media all and (max-width: 767px) {
 /*<<<<<<< HEAD*/
   .hidden-mobile {
@@ -364,6 +403,7 @@ a:hover {
 
 .hero-img {
     padding-bottom: 5%;
+    width: 100vw;
 }
 
 .product-info {
@@ -398,9 +438,7 @@ a:hover {
     margin-left: 25%;
 }
 
-ul {
-    list-style-position: inside;
-}
+
 
 .appliances-section {
     padding: 5% 5%;
@@ -430,7 +468,9 @@ ul {
 
 .appliance-img {
     padding-right: 15%;
-
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .appliance-cost {
@@ -442,10 +482,11 @@ ul {
 
 .product-heading {
     font-weight: bold;
-    margin-right: 45%;
+    font-size: 200%;
+    line-height: 1.3;
 }
 
-.product-subtext {
+#product-subtext {
     font-weight: 600;
 }
 
@@ -465,6 +506,14 @@ ul {
     padding-bottom: 3%;
 }
 
+.product-button a {
+    font-size: 120%;
+}
+
+.p-info {
+    font-size: 120%;
+}
+
 button {
     border-radius: 5px;
     color: #fff;
@@ -476,12 +525,6 @@ button {
     box-shadow: 0 1px 5px grey;
 }
 
-.preview {
-    width: 400px;
-    height: 400px;
-    margin-bottom: 5%;
-    margin-left: -3%;
-}
 
 .thumb {
     width: 15%;

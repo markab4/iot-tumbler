@@ -86,25 +86,25 @@
             <h2 class="product-heading cost">$1399</h2>
             <div class="row justify-content-left product-button">
                 <div class="col-sm-5 p-info">
-                    <button><a href="#">Add To Cart</button>
-                    </a>
+                    <button class="product-button"><a href="#">Add To Cart</a></button>
+
                 </div>
                 <div class="col-sm-5 p-info">
-                    <button><a href="#">Where To Buy</a></button>
+                    <button class="product-button"><a href="#">Where To Buy</a></button>
                 </div>
             </div>
             <div class="row justify-content-left">
                 <div class="col-12 p-info">
-                    <p class="product-subtext">A WiFi communication card is built into your Tumblër allowing it to
+                    <p id="product-subtext">A WiFi communication card is built into your Tumblër allowing it to
                         communicate with your phone for remote monitoring, control, and notifications. </p>
                     <h2 class="product-heading">Features:</h2>
-                    <p class="product-subtext">With a Tumblër smart washer/dryer and the Tumblër app, you'll be able
+                    <p>With a Tumblër smart washer/dryer and the Tumblër app, you'll be able
                         to:</p>
-                    <ul class="product-subtext">
+                    <ul>
                         <li>Start your cycle remotely</li>
                         <li>Monitor cycle status and time remaining</li>
                         <li>Extend the dryer cycle</li>
-                        <li>Receive and alert when your cycle has finished, but the door has not been opened</li>
+                        <li>Receive an alert when your cycle has finished, but the door has not been opened</li>
                         <li>Download custom specialty cycles</li>
                     </ul>
                 </div>
@@ -114,13 +114,13 @@
 </div>
 <script>
     var lastImg = 1; //Set initial thumbnail and preview
-    document.getElementById(0).src = document.getElementById(lastImg).src;
+    document.getElementById("0").src = document.getElementById(lastImg).src;
     document.getElementById(lastImg).className = "thumb selected";
 
     function preview(img) {
         document.getElementById(lastImg).className = "thumb normal";
         img.className = "thumb selected";
-        document.getElementById(0).src = img.src;
+        document.getElementById("0").src = img.src;
         lastImg = img.id
     }
 </script>
