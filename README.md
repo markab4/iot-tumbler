@@ -6,7 +6,7 @@ This is responsive website for Tumblër: a smart device that lets users know and
 * Mark Abramov
     * designed wireframes
     * created visual designs
-    * developed the websites (HTML, CSS, JavaScript), particularly adapting for mobile devices
+    * developed the websites (HTML, CSS), particularly adapting for mobile devices
 * Jazmyn Fuller
     * designed assets such as logo and product images
     * created site map
