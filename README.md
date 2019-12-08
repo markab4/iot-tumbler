@@ -1,6 +1,10 @@
 # Tumblër
 
-This is responsive website for Tumblër: a smart device that lets users know and control the status of their clothes in the washer/dryer in their home, or at the laundromat. [This site is live here.](https://venus.cs.qc.cuny.edu/~abma2399/iot-tumbler/public/)
+This is mobile-responsive website for Tumblër: a smart device that lets users know and control the status of their clothes in the washer/dryer in their home, or at the laundromat. 
+    * Three pages were fully developed and are live:
+        * [Landing page](https://markab4.github.io/iot-tumbler/public/index.html)
+        * [Appliances catalog](https://markab4.github.io/iot-tumbler/public/appliances.html)
+        * [Product page](https://markab4.github.io/iot-tumbler/public/product.html)
 
 ### Roles
 * Mark Abramov
@@ -91,8 +95,8 @@ Initially we agreed on our project idea, did paper sketches, and divided the wor
 ### Evaluation
 We used several metrics to measure the effectiveness of our site. There are many visuals, and 45-72 characters per line, to ensures our visitors experience a balance of text and images without being overwhelmed.  
 
- We laid out our content logically to prevent our visitors from switch-tasking; switch-tasking causes people to forget what they're focusing on, which in the end can turn away sales of our product. We also ensured our colour palette was not overpowering to prevent eye strain and user loss. This is why we used pastel colours, with dark text.   
+We laid out our content logically to prevent our visitors from switch-tasking; switch-tasking causes people to forget what they're focusing on, which in the end can turn away sales of our product. We also ensured our colour palette was not overpowering to prevent eye strain and user loss. This is why we used pastel colours, with dark text.   
  
- Ideally, we would continue our layout practices and build on the content we have accessible on our website. If we wanted to make additional money on top of selling our product, sensibly placing ads in spots where users will see it but not get distracted would work as well. We would also implement the search box, so if a user wants to look for something specific they can just type it in, and get it right away.
+Ideally, we would continue our layout practices and build on the content we have accessible on our website. If we wanted to make additional money on top of selling our product, sensibly placing ads in spots where users will see it but not get distracted would work as well. We would also implement the search box, so if a user wants to look for something specific they can just type it in, and get it right away.
  
- In the end, the most effective yardstick by which we can measure effectiveness of our site is the online sales of our product. A bounce rate of less than 15% would make the project a great success.
+In the end, the most effective yardstick by which we can measure effectiveness of our site is the online sales of our product. A bounce rate of less than 15% would make the project a great success.
