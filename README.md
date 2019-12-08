@@ -1,10 +1,11 @@
 # Tumblër
 
 This is mobile-responsive website for Tumblër: a smart device that lets users know and control the status of their clothes in the washer/dryer in their home, or at the laundromat. 
-    * Three pages were fully developed and are live:
-        * [Landing page](https://markab4.github.io/iot-tumbler/public/index.html)
-        * [Appliances catalog](https://markab4.github.io/iot-tumbler/public/appliances.html)
-        * [Product page](https://markab4.github.io/iot-tumbler/public/product.html)
+
+Three pages were fully developed and are live:
+   * [Landing page](https://markab4.github.io/iot-tumbler/public/index.html)
+   * [Appliances catalog](https://markab4.github.io/iot-tumbler/public/appliances.html)
+   * [Product page](https://markab4.github.io/iot-tumbler/public/product.html)
 
 ### Roles
 * Mark Abramov
